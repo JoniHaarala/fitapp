@@ -85,7 +85,7 @@ export default function SearchExercises({ setExercises, bodyPart, setBodyPart })
         width: '100%',
         p: '20px'
       }}>
-        <HorizontalScrollbar data={bodyParts} bodyParts setBodyPart={setBodyPart} bodyPart={bodyPart} />
+        <HorizontalScrollbar data={bodyParts} isBodyPart bodyParts setBodyPart={setBodyPart} bodyPart={bodyPart} />
       </Box>
     </Stack>
   )

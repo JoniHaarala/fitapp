@@ -104,6 +104,12 @@ body {
   width: 387px;
   height: 381px;
   text-decoration: none;
+  color: black;
+}
+
+.exercise-video:hover {
+  transition: 0.3s all ease-in-out;
+  transform: scale(1.05);
 }
 
 @media screen and (max-width:1200px) {

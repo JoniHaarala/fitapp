@@ -39,8 +39,8 @@ export default function ExcerciseDetail() {
   return (
     <Box>
       <Detail exerciseDetail={exerciseDetail} />
-      <SimilarExcercises />
-      <ExcerciseVideo />
+      <ExcerciseVideo exerciseVideos={exerciseVideos} name={exerciseDetail.name} />
+      <SimilarExcercises targetMuscleExercises={targetMuscleExercises} equipmentExercises={equipmentExercises}/>
     </Box>
   )
 }
